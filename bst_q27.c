@@ -13,24 +13,24 @@ void InputData(void){
 }
 
 int cound_by_range(){
-	 int start, end, mid;
-	 int upper;
-   int lower;
+  int start, end, mid;
+  int upper;
+  int lower;
 	
-	 start=0;
-   end=N-1;
+  start=0;
+  end=N-1;
 
-	//upper bound	
+//upper bound	
  while(start<end){
 	 mid=(start+end)/2;
 	 
 	
 	 if(loc[mid] > X){
-		 end=mid;
+	  end=mid;
 	 }
 	 else {
-		 start = mid+1;
-		} 
+	  start = mid+1;
+	 } 
 
  }
  upper = end;
@@ -43,18 +43,19 @@ int cound_by_range(){
 	 mid=(start+end)/2;
 	 
 	 if(loc[mid] >= X){
-		 end=mid;
+	  end=mid;
 	 }
 	 else {
-		 start = mid+1;
-		} 
+	  start = mid+1;
+	 } 
 
  }
-   lower = end;
+  lower = end;
 	
-	return (upper-lower);
+  return (upper-lower);
 	
 }
+
 int main() {
 
  int cnt=0;

@@ -12,56 +12,63 @@ void InputData(void){
 			scanf("%d", &loc[i]);
 }
 
-
-int main() {
- int i;
- int start, end, mid, idx=-1;
- int sum=0;
- int val;
- int cnt=0;
+int cound_by_range(){
+	 int start, end, mid;
+	 int upper;
+   int lower;
 	
- InputData();
+	 start=0;
+   end=N-1;
 
- start=0;
- end=N-1;
-	
- while(start<=end){
+	//upper bound	
+ while(start<end){
 	 mid=(start+end)/2;
 	 
 	
-	 if(loc[mid] < X){
-		 start=mid+1;
+	 if(loc[mid] > X){
+		 end=mid;
 	 }
-	 else if(loc[mid] > X){
-			end = mid-1;
+	 else {
+		 start = mid+1;
 		} 
-	  else{
-			idx=mid;
-			break;
-		}
- }
 
- if(idx==-1)
-		 printf("%d ", idx);
- else{	
-   val=loc[idx];
-   
-	 for(i=idx; i<N;i++){
-		if(loc[i]==val)
-			cnt++;
-		 else
-			 break;
-	}
+ }
+ upper = end;
 	
-	 for(i=idx-1; i>0;i--){
-		if(loc[i]==val)
-			cnt++;
-		 else
-			 break;
-	}
+ start=0;
+ end=N-1;
 	
-	printf("%d ", cnt);
+//lower bound	
+ while(start<end){
+	 mid=(start+end)/2;
+	 
+	 if(loc[mid] >= X){
+		 end=mid;
+	 }
+	 else {
+		 start = mid+1;
+		} 
+
+ }
+   lower = end;
 	
- }	
+	return (upper-lower);
+	
+}
+int main() {
+
+ int cnt=0;
+
+ InputData();
+
+
+ cnt = cound_by_range();
+	
+	if(cnt==0)
+	  printf("%d", -1);
+	else
+	  printf("%d", cnt);
+	
+ 
 	return 0;
 }

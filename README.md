@@ -10,3 +10,6 @@ bst_q27.c : O(logN)의 복잡도를 만족하는지 몰겟음...
 
 고정점 찾기<br/>
 bst_q28.c
+
+정수 삼각형 : https://www.acmicpc.net/problem/1932<br/>
+dp_bj1932.c

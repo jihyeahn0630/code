@@ -1,0 +1,48 @@
+#include <stdio.h>
+
+int N;
+int dt[510][510]={0,};
+
+
+void InputData(void){
+	int i, j;
+ 
+	  scanf("%d", &N);
+    for(i=0; i<N; i++){
+        for(j=0; j<i+1; j++){
+         scanf("%d ", &dt[i][j]);
+        } 
+    } 
+}
+
+int find_max(int a, int b){
+	if(a > b)
+		return a;
+	else
+		return b;
+}
+
+int main(){
+	int i,j;
+	int max=-1;
+	
+	InputData();
+	
+	for(i=1; i<N; i++){
+    for(j=0; j<i+1; j++){
+      if(j>0)
+			 dt[i][j] = find_max(dt[i-1][j-1], dt[i-1][j])+ dt[i][j];
+			
+			if(j==0)
+			  dt[i][j] = dt[i-1][j] + dt[i][j];
+      } 
+    } 
+	
+	for(j=0;j<N;j++){
+		if(dt[N-1][j] > max)
+			max=dt[N-1][j];
+	}
+	
+	printf("%d ",max);
+	
+}

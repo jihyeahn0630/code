@@ -11,7 +11,7 @@ bst_q27.c
 고정점 찾기<br/>
 bst_q28.c
 
-금광 : Dynamic Programming 
+금광 : Dynamic Programming<br/> 
 dp_q31.c
 
 정수 삼각형 : https://www.acmicpc.net/problem/1932<br/>

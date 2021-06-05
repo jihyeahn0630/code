@@ -10,30 +10,28 @@ int comp(const void* a, const void* b){
 
 int main() {
   int i;
-	int cnt = 0;
-	int x;
+  int cnt = 0;
+  int x = 0;
 
   scanf("%d ", &N);
   
-	for(i=0;i<N;i++)
-			scanf("%d ", &man[i]);
+  for(i=0;i<N;i++)
+    scanf("%d ", &man[i]);
 	
-	qsort(man, N, sizeof(int),comp);
+   qsort(man, N, sizeof(int),comp);
 	
-	//for(i=0;i<N;i++)
-	//	printf("%d ",man[i]);
+   //for(i=0;i<N;i++)
+   //	printf("%d ",man[i]);
 	
-	x=N;
-  while(x > 0){
-		
-		x = x - man[x-1];
-		
-		if(x<0)
-			break;
-		
+ for(i=0;i<N;i++){
+	x++;
+	if(x >= man[i]){
 		cnt++;
+		x=0;
 	}
+ }
 	
-	printf("%d ",cnt);
-	return 0;
+  printf("%d ",cnt);
+	
+  return 0;
 }

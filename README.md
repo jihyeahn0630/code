@@ -22,3 +22,6 @@ greedy_q01.c
 
 곱하기 혹은 더하기 :  Greedy<br/>
 greedy_q02.c
+
+문자열 뒤집기 : https://www.acmicpc.net/problem/1439<br/>
+greedy_bj1439.c

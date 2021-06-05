@@ -17,5 +17,5 @@ dp_q31.c
 정수 삼각형 : https://www.acmicpc.net/problem/1932<br/>
 dp_bj1932.c
 
-모험가 길드 : <br/> 
+모험가 길드 : Greedy<br/> 
 greedy_q01.c

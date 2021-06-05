@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 
 char input[22];
 
@@ -18,7 +18,7 @@ int main() {
 			total = total + val;
 		}else{
 			if(total==0)
-			  total = total + val;
+				total = total + val;
 			else
 				total = total * val;
 		}

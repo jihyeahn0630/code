@@ -19,3 +19,6 @@ dp_bj1932.c
 
 모험가 길드 : Greedy<br/> 
 greedy_q01.c
+
+곱하기 혹은 더하기 :  Greedy<br/>
+greedy_q02.c

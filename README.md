@@ -36,4 +36,9 @@ greedy_bj1439.c
 * 플로이드 : https://www.acmicpc.net/problem/11404<br/>
 sp_bj11404.c
 
+* 정확한 순위:<br/>
+sp_q38.c
+
+
+
 

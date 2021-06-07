@@ -43,4 +43,8 @@ sp_q38.c
 * 여행 계획 : 서로소 집합<br/>
 graph_q41.c
 
+## 구현
+* 럭키 스트레이트 : https://www.acmicpc.net/problem/18406<br/>
+impl_bj18406.c
+
 

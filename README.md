@@ -7,6 +7,8 @@ sort_bj10825.c
 * 안테나 : https://www.acmicpc.net/problem/18310<br/>
 sort_bj18310.c
 
+* 카드정렬 :https://www.acmicpc.net/problem/1715<br/>
+sort_bj1715.cpp
 
 ## BST
 * 정렬된 배열에서 특정 수의 개수를 구하기<br/>

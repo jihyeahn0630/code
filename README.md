@@ -8,7 +8,7 @@ sort_bj10825.c
 sort_bj18310.c
 
 * 카드정렬 :https://www.acmicpc.net/problem/1715<br/>
-sort_bj1715.cpp
+sort_bj1715.cpp<br/>
 sort_bj1715.c 는 왜 실패인지 의문???
 
 ## BST

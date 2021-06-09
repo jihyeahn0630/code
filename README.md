@@ -9,6 +9,7 @@ sort_bj18310.c
 
 * 카드정렬 :https://www.acmicpc.net/problem/1715<br/>
 sort_bj1715.cpp
+sort_bj1715.c 는 왜 실패인지 의문???
 
 ## BST
 * 정렬된 배열에서 특정 수의 개수를 구하기<br/>

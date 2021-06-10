@@ -18,6 +18,9 @@ bst_q27.c
 * 고정점 찾기<br/>
 bst_q28.c
 
+* 공유기 설치<br/>
+bst_bj2110.c
+
 ## Dynamic Programming
 * 금광 : <br/> 
 dp_q31.c

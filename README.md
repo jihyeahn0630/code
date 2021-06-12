@@ -57,6 +57,9 @@ sp_q38.c
 * 화성탐사 : 그냥 BFS로 품..<br/>
 bfs_q39.c
 
+* 숨바꼭질 : C는 memory 부족<br/>
+sp_q40.c
+
 ## Graph
 * 여행 계획 : 서로소 집합<br/>
 graph_q41.c

@@ -31,6 +31,9 @@ dp_bj1932.c
 * 퇴사 : https://www.acmicpc.net/problem/14501<br/>
 dp_bj14501.c
 
+* 병사 배치하기 : https://www.acmicpc.net/problem/18353<br/>
+dp+bj18353.c
+
 ## Greedy
 * 모험가 길드 :<br/> 
 greedy_q01.c

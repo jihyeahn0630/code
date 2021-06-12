@@ -4,11 +4,18 @@
 
 int N;
 int M;
-int map[20000][20000]; // memory 초과 ==> c언어로 불가?
+int map[20001][20001]; // memory 초과 ==> c언어로 불가?
 
-int A[7]={3,4,3,1,1,2,5};
-int B[7]={6,3,2,3,2,4,2};
+int A[5001];
+int B[5001];
 
+void getInput(){
+   int i;
+   scanf("%d %d ",&N,&M);
+   for(i=0;i<M;i++){
+	scanf("%d %d ",&A[i],&b[i]);   
+   }
+}	
 int main() {
   int k,i,j;
 

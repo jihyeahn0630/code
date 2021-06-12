@@ -32,7 +32,10 @@ dp_bj1932.c
 dp_bj14501.c
 
 * 병사 배치하기 : https://www.acmicpc.net/problem/18353<br/>
-dp+bj18353.c
+dp_bj18353.c
+
+* 못생긴 수 :<br/>
+dp_q35.c
 
 ## Greedy
 * 모험가 길드 :<br/> 

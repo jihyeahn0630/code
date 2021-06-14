@@ -67,7 +67,8 @@ graph_q41.c
 * 탑승구 : 서로소 집합<br/>  
 graph_q42.c
 
-* 도시 분할 계획 :https://www.acmicpc.net/problem/1647<br/>
+* 도시 분할 계획 : https://www.acmicpc.net/problem/1647<br/>
+최소신장트리 -> 가장 비용이 큰 간선 제거<br/>
 graph_bj1647.c
 
 ## 구현

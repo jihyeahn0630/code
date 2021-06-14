@@ -74,6 +74,9 @@ graph_bj1647.c
 * 위상 정렬 알고리즘 :<br/>
 topology_sort.c
 
+* 커리큘럼 :<br/>
+topology_sort2.c
+
 ## 구현
 * 럭키 스트레이트 : https://www.acmicpc.net/problem/18406<br/>
 impl_bj18406.c

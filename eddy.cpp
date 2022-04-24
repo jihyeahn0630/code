@@ -11,8 +11,6 @@
  
 using namespace std;
 #define FOR(i,a,b) for(int i = (a); i < (b); ++i)
-#define FORE(it, x) for(__typeof(x.begin()) it = x.begin(); it != x.end(); ++it)
-#define pb push_back
 typedef long long ll;
  
 const int maxn = 32;
@@ -29,7 +27,7 @@ class P1 {
   void doit(int d, int x, int y, vector<string>& dat) {
     vis[x][y] = 1;
     now[d] = dat[x][y];
-    if(d+1 == n*n) { //마지막 인자가까지 돌면..
+    if(d+1 == n*n) { //마지막 인자까지 돌면..
       cnt_end++;
       if(maxi == "" || maxi < string(now)) maxi = string(now);
       if(mini == "" || mini > string(now)) mini = string(now);
@@ -46,7 +44,7 @@ class P1 {
 				//printf("%d ", dist);
       }
     }
-		printf("%d ", dist);
+		
     FOR(k,0,4) {
       int nx = x + dx[k]; 
 			int ny = y + dy[k];
@@ -73,7 +71,7 @@ public:
         doit(0, x, y, dat); //(0,0)으로 시작
         vis[x][y] = 0;
       }
-    printf("%d \n", cnt_end);
+    
     return string(maxi) + " " + string(mini);
   }
 };

@@ -1,4 +1,7 @@
 # Homeworks
+## 순열
+* 부등호 : https://www.acmicpc.net/problem/2529<br/>
+inequality_sign.cpp 
 
 ## Sorting
 * 국영수 : https://www.acmicpc.net/problem/10825<br/>

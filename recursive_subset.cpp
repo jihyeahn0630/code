@@ -18,7 +18,7 @@ int total=0;
 
 void solve(int idx, int s){
 	
-	 if(idx == n){
+	 if(idx == n){  //idx means the actual number, it starts with "1", including the first value.
          if(s==sum){
 		     total++;
          }

@@ -3,6 +3,9 @@
 * 로또 : https://www.acmicpc.net/problem/6603<br/>
 recursive_lotto.cpp
 
+* 부분수열의 합 : https://www.acmicpc.net/problem/1182<br/>
+recursive_subset.cpp
+
 ## 순열
 * 부등호 : https://www.acmicpc.net/problem/2529<br/>
 inequality_sign.cpp 

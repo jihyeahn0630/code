@@ -1,4 +1,8 @@
 # Homeworks
+## 재귀
+* 로또 : https://www.acmicpc.net/problem/6603<br/>
+recursive_lotto.cpp
+
 ## 순열
 * 부등호 : https://www.acmicpc.net/problem/2529<br/>
 inequality_sign.cpp 

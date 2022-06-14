@@ -13,6 +13,8 @@ recursive_subset2.cpp
   연산자 끼워넣기(2) : https://www.acmicpc.net/problem/15658<br/>
 add_op.cpp
 
+* 테트로미노 : https://www.acmicpc.net/problem/14500<br/>
+tetromino.cpp
 
 ## 순열
 * 부등호 : https://www.acmicpc.net/problem/2529<br/>

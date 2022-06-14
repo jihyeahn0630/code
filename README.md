@@ -10,6 +10,7 @@ recursive_subset.cpp
 recursive_subset2.cpp
 
 * 연산자 끼워넣기 : https://www.acmicpc.net/problem/14888<br/>
+* 연산자 끼워넣기(2) : https://www.acmicpc.net/problem/15658<br/>
 add_op.cpp
 
 

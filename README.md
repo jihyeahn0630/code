@@ -9,6 +9,10 @@ recursive_subset.cpp
 * 부분수열의 합2 : https://www.acmicpc.net/problem/14225<br/>
 recursive_subset2.cpp
 
+* 연산자 끼워넣기 : https://www.acmicpc.net/problem/14888<br/>
+add_op.cpp
+
+
 ## 순열
 * 부등호 : https://www.acmicpc.net/problem/2529<br/>
 inequality_sign.cpp 

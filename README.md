@@ -19,6 +19,9 @@ tetromino.cpp
 * 두 동전 : https://www.acmicpc.net/problem/16197<br/>
 two_coins.cpp
 
+* 에너지모으기 : https://www.acmicpc.net/problem/16198<br/>
+energy.cpp
+
 
 ## 순열
 * 부등호 : https://www.acmicpc.net/problem/2529<br/>

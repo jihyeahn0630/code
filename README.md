@@ -25,6 +25,8 @@ energy.cpp
 * N-Queen : https://www.acmicpc.net/problem/9663<br/>
 n_queen.cpp
 
+* Sudoku : https://www.acmicpc.net/problem/2580<br/>
+sudoku.cpp
 
 ## 순열
 * 부등호 : https://www.acmicpc.net/problem/2529<br/>

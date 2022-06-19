@@ -31,6 +31,9 @@ sudoku.cpp
 * Sudominoku : https://www.acmicpc.net/problem/4574<br/>
 sudominoku.cpp
 
+* alphabet : https://www.acmicpc.net/problem/1987<br/>
+alphabet.cpp
+
 ## 순열
 * 부등호 : https://www.acmicpc.net/problem/2529<br/>
 inequality_sign.cpp 

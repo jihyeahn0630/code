@@ -28,6 +28,9 @@ n_queen.cpp
 * Sudoku : https://www.acmicpc.net/problem/2580<br/>
 sudoku.cpp
 
+* Sudominoku : https://www.acmicpc.net/problem/4574<br/>
+sudominoku.cpp
+
 ## 순열
 * 부등호 : https://www.acmicpc.net/problem/2529<br/>
 inequality_sign.cpp 

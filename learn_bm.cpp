@@ -41,3 +41,30 @@ int solve(int idx, int k, int mask, vector<int> &words){
         
     return ans;
 }
+
+int main(){
+	
+	cin >> n >> m;
+	
+  vector<int> words(n);
+	int mask = 0;
+	
+	for(int i=0; i<n; i++) {
+		string s;
+		cin >> s;
+	
+		for(char x : s) {
+			words[i] |= (1 << (x-'a'));
+		}
+	
+	}
+    
+//	for(int i=0; i<n; i++) {
+//		cout <<words[i] <<endl;
+//	}
+	
+    cout << solve(0, m, 0, words) << endl;
+    
+    return 0;
+}
+

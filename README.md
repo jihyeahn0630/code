@@ -125,3 +125,7 @@ impl_q08.c
 ## DFS/BFS
 * 연구소 : https://www.acmicpc.net/problem/14502<br/>
 dfs_bj14502.c
+
+* 뱀과 사다리 게임 :https://www.acmicpc.net/problem/16928<br/>
+snake_ladder.cpp
+

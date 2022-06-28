@@ -126,6 +126,8 @@ impl_q08.c
 * 연구소 : https://www.acmicpc.net/problem/14502<br/>
 dfs_bj14502.c
 
-* 뱀과 사다리 게임 :https://www.acmicpc.net/problem/16928<br/>
+* 뱀과 사다리 게임 : https://www.acmicpc.net/problem/16928<br/>
 snake_ladder.cpp
 
+* 데스 나이트 : https://www.acmicpc.net/problem/16948<br/>
+death_knight.cpp

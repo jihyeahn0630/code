@@ -131,3 +131,8 @@ snake_ladder.cpp
 
 * 데스 나이트 : https://www.acmicpc.net/problem/16948<br/>
 death_knight.cpp
+
+* 돌 그룹 : https://www.acmicpc.net/problem/12886<br/>
+stones.cpp
+
+

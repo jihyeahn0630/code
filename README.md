@@ -88,6 +88,9 @@ greedy_bj1439.c
 * 동전 : https://www.acmicpc.net/problem/11047<br/>
 coins.cpp
 
+* 회의실 배정 : https://www.acmicpc.net/problem/1931<br/>
+meeting.cpp
+
 ## Shortest Path
 * 플로이드 : https://www.acmicpc.net/problem/11404<br/>
 sp_bj11404.c

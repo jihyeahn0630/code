@@ -59,6 +59,10 @@ bst_q28.c
 * 공유기 설치<br/>
 bst_bj2110.c
 
+* 숫자카드 : https://www.acmicpc.net/problem/10815<br/>
+num_card.cpp
+
+
 ## Dynamic Programming
 * 금광 : <br/> 
 dp_q31.c

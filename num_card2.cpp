@@ -54,3 +54,38 @@ int upper_bound(long long key, int idx){
 	
 	return ans;
 }
+
+int main() {
+
+	int n,m;
+	
+	cin >> n;
+
+	
+	for(int i=0; i<n; i++){
+		cin >> num[i];	
+	}
+	
+	cin >> m;
+
+	
+	for(int i=0; i < m ;i++){
+			cin >> check[i];	
+	}
+	
+	sort(num.begin(),num.begin()+n);
+	
+	for(int i=0; i < m ;i++){
+		int low;
+		int up;
+		
+		low = lower_bound(check[i],n);
+		up = upper_bound(check[i],n);
+		
+		
+		cout << up-low <<" ";
+	}
+	
+	return 0;
+	
+}

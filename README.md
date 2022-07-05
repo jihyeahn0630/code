@@ -62,6 +62,8 @@ bst_bj2110.c
 * 숫자카드 : https://www.acmicpc.net/problem/10815<br/>
 num_card.cpp
 
+* 숫자카드2: https://www.acmicpc.net/problem/10816<br/>
+num_card2.cpp
 
 ## Dynamic Programming
 * 금광 : <br/> 

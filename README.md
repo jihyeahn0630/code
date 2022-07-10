@@ -65,6 +65,9 @@ num_card.cpp
 * 숫자카드2: https://www.acmicpc.net/problem/10816<br/>
 num_card2.cpp
 
+*랜선 자르기 : https://www.acmicpc.net/problem/1654<br/>
+lan.cpp
+
 ## Dynamic Programming
 * 금광 : <br/> 
 dp_q31.c

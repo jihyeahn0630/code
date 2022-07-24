@@ -153,4 +153,7 @@ death_knight.cpp
 * 돌 그룹 : https://www.acmicpc.net/problem/12886<br/>
 stones.cpp
 
+## 자료구조
+*문자열폭발 : https://www.acmicpc.net/problem/9935 <br/>
+string_expl.cpp
 
